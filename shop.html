@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NN Ecommerce | Home</title>
+    <title>NN Ecommerce | shop</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -35,32 +35,97 @@
             </button>
         </div>
     </header>
-
-    <section id="banner">
-        <div class="banner-content">
-            <b><h1>Welcome to NN</h1></b>
-            <b><p>Your one-stop shop for everything awesome.</p></b>
-    </section>
-
-    <section id="featured-products">
-        <h1>Featured Products</h1>
-        <div class="product-grid">
+    <style>
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+    
+        .product {
+            width: 300px;
+            margin: 20px;
+            text-align: center;
+        }
+    
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .product p {
+            margin: 10px 0;
+        }
+    </style>
+    
+    <main>
+        <section id="clothing">
+            <h2>Clothing</h2>
             <div class="product">
-                <h3>Mobiles</h3>
+                <img src="https://omnitail.net/wp-content/uploads/2021/06/amazon-clothes-titlecards.png" alt="Clothing Product">
+                <p>Product Name</p>
+                <p>$XX.XX</p>
+                <!-- Add more details as needed -->
             </div>
+            <!-- Add more clothing products here -->
+        </section>
+    
+        <section id="electronics">
+            <h2>Electronics</h2>
             <div class="product">
-                
-                <h3>Watches</h3>
-                
+                <img src="https://cdn.lifehack.org/wp-content/uploads/2017/01/04120035/usedelectronics.png" alt="Electronic Product">
+                <p>Product Name</p>
+                <p>$XX.XX</p>
+                <!-- Add more details as needed -->
             </div>
+            <!-- Add more electronics products here -->
+        </section>
+    
+        <section id="books">
+            <h2>Books</h2>
             <div class="product">
-               
-                <h3>Bags</h3>
-                
+                <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHx8MA%3D%3D" alt="Book Product">
+                <p>Product Name</p>
+                <p>$XX.XX</p>
+                <!-- Add more details as needed -->
             </div>
-            <!-- Add more products as needed -->
-        </div>
-    </section>
+            <!-- Add more book products here -->
+        </section>
+    
+        <!-- Add more sections for other categories -->
+    </main>
+    <main>
+        <!-- Sections for products -->
+    
+        <section id="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="nnecomerce@gmail.com">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    
+        <section id="promotion">
+            <h2>Special Promotion</h2>
+            <div class="promotion-banner">
+                <img src="https://png.pngtree.com/png-vector/20220410/ourmid/pngtree-04-special-promo-3d-promotion-editable-text-effect-png-image_4533731.png" alt="Special Promotion">
+                <p>Check out our special offers!</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </section>
+    
+        <section id="social-media">
+            <h2>Connect with Us</h2>
+            <ul class="social-icons">
+                <li><a href="#"><img src="https://via.placeholder.com/50" alt="Facebook"></a></li>
+                <li><a href="#"><img src="https://via.placeholder.com/50" alt="Twitter"></a></li>
+                <li><a href="#"><img src="https://via.placeholder.com/50" alt="Instagram"></a></li>
+                <!-- Add more social media icons as needed -->
+            </ul>
+        </section>
+    </main>
+    
 
 
     <footer class="text-gray-600 body-font">
